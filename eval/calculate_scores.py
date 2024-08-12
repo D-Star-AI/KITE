@@ -1,13 +1,10 @@
 import os
-import sys
 import json
 import numpy as np
 
-# add ../../ to sys.path
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
-
 def get_grades_for_one_test_set(config_name: str, test_set_name: str) -> list[int]:
-    file_path = f"/Users/zach/Code/KITE/results/{config_name}/eval_results_{test_set_name}.json"
+    base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '../results'))
+    file_path = os.path.join(base_dir, config_name, f"eval_results_{test_set_name}.json")
     with open(file_path, "r") as f:
         eval_results = json.load(f)
 
