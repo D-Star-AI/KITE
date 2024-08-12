@@ -1,0 +1,2 @@
+knowledge-base-content/** filter=lfs diff=lfs merge=lfs -text
+knowledge-base-content filter=lfs diff=lfs merge=lfs -text
