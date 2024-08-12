@@ -1,0 +1,102 @@
+[
+    {
+        "query": "What was Dropbox's total ARR reported at the end of fiscal year 2022?",
+        "gt_answer": "Dropbox's total annual recurring revenue (Total ARR) at the end of fiscal year 2022 was $2,514 million (or $2.514 billion).",
+        "rubric": "",
+        "search_queries": [
+            "What was Dropbox's total ARR reported at the end of fiscal year 2022?"
+        ],
+        "context_length": 14750,
+        "response": "Dropbox's total ARR reported at the end of fiscal year 2022 was $2,514 million."
+    },
+    {
+        "query": "What are UiPath's core values?",
+        "gt_answer": "Humble, Bold, Immersed, Fast",
+        "rubric": "",
+        "search_queries": [
+            "What are UiPath's core values?"
+        ],
+        "context_length": 14772,
+        "response": "UiPath's core values are Humble, Bold, Immersed, and Fast."
+    },
+    {
+        "query": "How many shares of Class A Common Stock were authorized, but unissued and not reserved for issuance at Definitive Healthcare corp?",
+        "gt_answer": "Definitive Healthcare Corp. had an aggregate of 484,374,515 shares of Class A Common Stock authorized but unissued and not reserved for issuance under their equity incentive plans.",
+        "rubric": "",
+        "search_queries": [
+            "How many shares of Class A Common Stock were authorized, but unissued and not reserved for issuance at Definitive Healthcare corp?"
+        ],
+        "context_length": 15064,
+        "response": "The provided context does not contain information about Definitive Healthcare Corp or the number of shares of Class A Common Stock that were authorized, but unissued and not reserved for issuance. More information is needed to answer your question."
+    },
+    {
+        "query": "What was Zoom's sales and marketing expenses in 2023 and how does it compare to the previous fiscal year?",
+        "gt_answer": "Zoom Sales and Marketing expense for 2023 was $1,696,590,000 (or approximately $1.7 billion). This represents and increase of $560,631,000 from the previous fiscal year.",
+        "rubric": "",
+        "search_queries": [
+            "What was Zoom's sales and marketing expenses in 2023 and how does it compare to the previous fiscal year?"
+        ],
+        "context_length": 14778,
+        "response": "Zoom's sales and marketing expenses for the fiscal year ended January 31, 2023, were $1,696,590,000. This represents an increase of $560,631,000, or 49.4%, compared to the previous fiscal year, which had sales and marketing expenses of $1,135,959,000."
+    },
+    {
+        "query": "What are the key system capabilities at Amplitude?",
+        "gt_answer": "Behavioral Data at the Core, Built-in Data Management, Real-time Analytics and Insight, Easy Adoption and Collaboration, Power Data-Driven Action, Enterprise-grade Platform",
+        "rubric": "",
+        "search_queries": [
+            "What are the key system capabilities at Amplitude?"
+        ],
+        "context_length": 14650,
+        "response": "The provided context does not contain specific information about the key system capabilities at Amplitude. More information is needed to answer this question."
+    },
+    {
+        "query": "How have Paylocity's total operating expenses changed since 2021?",
+        "gt_answer": "From 2021 to 2023, Paylocity's total operating expenses increased by $294,247,000, which is an increase of approximately 82% over the two-year period. 2021 Total Operating Expense = $358,286,000. 2022 Total Operating Expense = $481,055,000. 2023 Total Operating Expense = $652,533,000",
+        "rubric": "",
+        "search_queries": [
+            "How have Paylocity's total operating expenses changed since 2021?"
+        ],
+        "context_length": 14725,
+        "response": "Paylocity's total operating expenses increased from $358.3 million in 2021 to $481.1 million in 2022, and further to $652.5 million in 2023."
+    },
+    {
+        "query": "Compare the change in revenue from 2022 to 2023 for both Domo and Smartsheet.",
+        "gt_answer": "Smartsheet 2022 Total Revenue: $550,832,000. Smartsheet 2023 Total Revenue: $766,915,000.\nDomo 2022 Total Revenue: $258,000,000. Domo 2023 Total Revenue: $308,600,000",
+        "rubric": "",
+        "search_queries": [
+            "Compare the change in revenue from 2022 to 2023 for both Domo and Smartsheet."
+        ],
+        "context_length": 14639,
+        "response": "The provided context only includes information about Smartsheet's revenue change from 2022 to 2023. Smartsheet's total revenue increased from $550,832,000 in 2022 to $766,915,000 in 2023, which is an increase of $216,083,000 or 39%. There is no information provided about Domo's revenue change. More information is needed to compare Domo's revenue change."
+    },
+    {
+        "query": "How many engineers worked at Docusign at the end of January 2023 as reported in the 2023 annual report?",
+        "gt_answer": "As of January 31, 2023, DocuSign has 7,336 employees, of which approximately 24% were engineers. This would be approximately 1,761 engineers.",
+        "rubric": "The number doesn't have to be exactly right, but it should be very close, and the reasoning should be sound.",
+        "search_queries": [
+            "How many engineers worked at Docusign at the end of January 2023 as reported in the 2023 annual report?"
+        ],
+        "context_length": 14628,
+        "response": "As of January 31, 2023, approximately 24% of DocuSign's 7,336 employees were in engineering, product development, and customer operations. This equates to about 1,760 employees in those roles."
+    },
+    {
+        "query": "What was the non-GAAP free cash flow in 2022 and 2023 for Snowflake Inc.?",
+        "gt_answer": "Non-GAAP Free Cash Flow for the fiscal year ended January 31, 2022: $81.2 million.\nNon-GAAP Free Cash Flow for the fiscal year ended January 31, 2023: $496.5 million.",
+        "rubric": "",
+        "search_queries": [
+            "What was the non-GAAP free cash flow in 2022 and 2023 for Snowflake Inc.?"
+        ],
+        "context_length": 14658,
+        "response": "The non-GAAP free cash flow for Snowflake Inc. was $81.2 million in 2022 and $496.5 million in 2023."
+    },
+    {
+        "query": "Please list all of Square\u2019s twelve commerce products.",
+        "gt_answer": "Square for Restaurants, Square Appointments, Square for Retail, Square Online, Square Point of Sale, Square Online Checkout, Square Invoices, Square Virtual Terminal, Risk Manager, Order Manager, Payment APIs, Commerce APIs",
+        "rubric": "Heavily penalize an answer that doesn't include all 12.",
+        "search_queries": [
+            "Please list all of Square\u2019s twelve commerce products."
+        ],
+        "context_length": 14506,
+        "response": "The context does not provide a specific list of twelve commerce products from Square. More information is needed to accurately list them."
+    }
+]

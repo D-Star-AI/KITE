@@ -1,0 +1,52 @@
+[
+    {
+        "query": "What was Dropbox's total ARR reported at the end of fiscal year 2022?",
+        "gt_answer": "Dropbox's total annual recurring revenue (Total ARR) at the end of fiscal year 2022 was $2,514 million (or $2.514 billion).",
+        "rubric": ""
+    },
+    {
+        "query": "What are UiPath's core values?",
+        "gt_answer": "Humble, Bold, Immersed, Fast",
+        "rubric": ""
+    },
+    {
+        "query": "How many shares of Class A Common Stock were authorized, but unissued and not reserved for issuance at Definitive Healthcare corp?",
+        "gt_answer": "Definitive Healthcare Corp. had an aggregate of 484,374,515 shares of Class A Common Stock authorized but unissued and not reserved for issuance under their equity incentive plans.",
+        "rubric": ""
+    },
+    {
+        "query": "What was Zoom's sales and marketing expenses in 2023 and how does it compare to the previous fiscal year?",
+        "gt_answer": "Zoom Sales and Marketing expense for 2023 was $1,696,590,000 (or approximately $1.7 billion). This represents and increase of $560,631,000 from the previous fiscal year.",
+        "rubric": ""
+    },
+    {
+        "query": "What are the key system capabilities at Amplitude?",
+        "gt_answer": "Behavioral Data at the Core, Built-in Data Management, Real-time Analytics and Insight, Easy Adoption and Collaboration, Power Data-Driven Action, Enterprise-grade Platform",
+        "rubric": ""
+    },
+    {
+        "query": "How have Paylocity's total operating expenses changed since 2021?",
+        "gt_answer": "From 2021 to 2023, Paylocity's total operating expenses increased by $294,247,000, which is an increase of approximately 82% over the two-year period. 2021 Total Operating Expense = $358,286,000. 2022 Total Operating Expense = $481,055,000. 2023 Total Operating Expense = $652,533,000",
+        "rubric": ""
+    },
+    {
+        "query": "Compare the change in revenue from 2022 to 2023 for both Domo and Smartsheet.",
+        "gt_answer": "Smartsheet 2022 Total Revenue: $550,832,000. Smartsheet 2023 Total Revenue: $766,915,000.\nDomo 2022 Total Revenue: $258,000,000. Domo 2023 Total Revenue: $308,600,000",
+        "rubric": ""
+    },
+    {
+        "query": "How many engineers worked at Docusign at the end of January 2023 as reported in the 2023 annual report?",
+        "gt_answer": "As of January 31, 2023, DocuSign has 7,336 employees, of which approximately 24% were engineers. This would be approximately 1,761 engineers.",
+        "rubric": "The number doesn't have to be exactly right, but it should be very close, and the reasoning should be sound."
+    },
+    {
+        "query": "What was the non-GAAP free cash flow in 2022 and 2023 for Snowflake Inc.?",
+        "gt_answer": "Non-GAAP Free Cash Flow for the fiscal year ended January 31, 2022: $81.2 million.\nNon-GAAP Free Cash Flow for the fiscal year ended January 31, 2023: $496.5 million.",
+        "rubric": ""
+    },
+    {
+        "query": "Please list all of Square’s twelve commerce products.",
+        "gt_answer": "Square for Restaurants, Square Appointments, Square for Retail, Square Online, Square Point of Sale, Square Online Checkout, Square Invoices, Square Virtual Terminal, Risk Manager, Order Manager, Payment APIs, Commerce APIs",
+        "rubric": "Heavily penalize an answer that doesn't include all 12."
+    }
+]

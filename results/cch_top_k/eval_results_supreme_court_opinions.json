@@ -1,0 +1,167 @@
+[
+    {
+        "query": "What was the court\u2019s opinion in Biden vs. Nebraska? What was the dissenting opinion?",
+        "gt_answer": "This case was about whether the HEROES Act of 2003 granted the Secretary of Education the power to implement a student loan forgiveness program.\n\nThe Court ruled that the Secretary of Education did not have the power to establish the student loan forgiveness program. The majority opinion argued that the authority to institute such a large loan forgiveness program should rest with Congress.\n\nThe dissenting opinion was delivered by Justice Kagan, and argued that the plaintiff-States did not have the standing to bring this case, since they did not suffer direct financial harm.",
+        "rubric": "Be sure that both the majority opinion and the dissenting opinion are well described.",
+        "model_answer": "The court's opinion in Biden v. Nebraska, delivered by Chief Justice Roberts, concluded that the HEROES Act does not provide authorization for the Secretary's loan forgiveness plan. The court reversed and remanded the decision of the District Court for the Eastern District of Missouri, denying the Government's application to vacate the Eighth Circuit's injunction as moot.\n\nThe dissenting opinion, written by Justice Kagan and joined by Justices Sotomayor and Jackson, argued that the majority's decision overstepped judicial bounds by deciding a contested public policy issue that should be addressed by politically accountable branches. The dissent criticized the majority for granting standing to states without a personal stake in the loan forgiveness plan and for misapplying standing law.",
+        "grade": "9",
+        "context_length": 14074,
+        "search_queries": [
+            "What was the court\u2019s opinion in Biden vs. Nebraska? What was the dissenting opinion?"
+        ]
+    },
+    {
+        "query": "What was the dissenting opinion in Amgen vs. Sanofi?",
+        "gt_answer": "There was no dissenting opinion, as the court sided unanimously with Amgen in this case.",
+        "rubric": "Ideally the answer will say definitively that there was no dissenting opinion because the court sided unanimously with Sanofi. But it should still be considered a good answer is the answer says something along the lines of \u201cI couldn\u2019t find a dissenting opinion.\u201d A bad answer is one that makes up a dissenting opinion.",
+        "model_answer": "The context provided does not mention any dissenting opinion in the Amgen vs. Sanofi case. It states that Gorsuch, J., delivered the opinion for a unanimous Court, indicating there was no dissent.",
+        "grade": "10",
+        "context_length": 13653,
+        "search_queries": [
+            "What was the dissenting opinion in Amgen vs. Sanofi?"
+        ]
+    },
+    {
+        "query": "In the court\u2019s decision in Amgen vs. Sanofi, what prior cases did they cite as precedent, and what was the thread that tied them together?",
+        "gt_answer": "The core issue was that of enablement. A patent must provide sufficient detail to enable a person skilled in the art to reliably reproduce what is claimed. The cases cited by the court were all cases where patent claims were invalidated on the grounds on not providing sufficient enablement. Examples include Morse, Incandescent Lamp, and Holland Furniture.",
+        "rubric": "",
+        "model_answer": "The court cited several prior cases as precedent, including Wood v. Underhill, O'Reilly v. Morse, The Incandescent Lamp Patent, Ives v. Hamilton, Tilghman v. Proctor, and Minerals Separation. The common thread tying these cases together is the enablement requirement, which mandates that a patent specification must provide sufficient information to enable a person skilled in the art to make and use the invention. The court emphasized that the more a party claims, the more it must enable, ensuring that the public receives the full benefit of the invention once the patent expires.",
+        "grade": "10",
+        "context_length": 12293,
+        "search_queries": [
+            "In the court\u2019s decision in Amgen vs. Sanofi, what prior cases did they cite as precedent, and what was the thread that tied them together?"
+        ]
+    },
+    {
+        "query": "What was the court\u2019s opinion in Amgen vs. Sanofi?",
+        "gt_answer": "The court upheld the lower courts\u2019 ruling that Amgen\u2019s claim on an entire genus of antibodies was invalid on the grounds of not providing enablement. Their claimed enablement was seen by the court as little more than an instruction to engage in trial and error.",
+        "rubric": "",
+        "model_answer": "The court affirmed the judgment of the lower courts, agreeing that Amgen failed to meet the enablement requirement for its patent claims. The court found that Amgen's methods for generating additional antibodies amounted to little more than a trial-and-error process, and thus did not provide adequate guidance to make and use the claimed antibodies beyond the narrow scope of the 26 working examples identified.",
+        "grade": "10",
+        "context_length": 13011,
+        "search_queries": [
+            "What was the court\u2019s opinion in Amgen vs. Sanofi?"
+        ]
+    },
+    {
+        "query": "In National Pork Producers Council v. Ross, in what way did Justice Barrett disagree with the others?",
+        "gt_answer": "Justice Barrett argued that Proposition 12 did create a substantial burden on interstate commerce, while the others argued it did not. But she agreed with the majority that the benefits and burdens of Proposition 12 are incommensurable, and therefore she agreed with the majority\u2019s decision.",
+        "rubric": "It\u2019s important to note that Justice Barrett did not dissent, but merely provided a concurring opinion. An answer that states she dissented should be heavily penalized.",
+        "model_answer": "Justice Barrett disagreed with the others by concluding that the judgment should be affirmed because petitioners failed to plausibly allege a substantial burden on interstate commerce as required by Pike, rather than due to any fundamental reworking of the doctrine. She did not join the portion of Justice Gorsuch's opinion that suggested courts are incapable of balancing economic burdens against noneconomic benefits.",
+        "grade": "0",
+        "context_length": 14780,
+        "search_queries": [
+            "In National Pork Producers Council v. Ross, in what way did Justice Barrett disagree with the others?"
+        ]
+    },
+    {
+        "query": "What is the dormant commerce clause and how is it relevant to National Pork Producers Council v. Ross?",
+        "gt_answer": "The dormant Commerce Clause is a reading of the Commerce Clause that includes an additional negative command that effectively forbids the enforcement of certain state economic regulations, even when Congress has not legislated on the subject. In Guy v. Baltimore, the Court held that state laws offend the Commerce Clause when they seek to build up domestic commerce through burdens on the industry and business of other States. This antidiscrimation reading of the clause is the primary one supported by precedent.\n\nIn National Pork Producers v. Ross, there was no antidiscrimination argument put forward. Instead, the plaintiffs put forward an interpretation of the dormant Commerce Clause that focused on harms to out-of-state firms relative to the local benefit.",
+        "rubric": "The antidiscrimination part is a subtle but important part of this answer. A great answer will clearly differentiate between the antidiscrimination interpretation of the dormant Commerce Clause supported by precedent, and the more novel form put forth by the plaintiffs in this case.",
+        "model_answer": "The dormant Commerce Clause refers to the principle that the Commerce Clause of the U.S. Constitution not only grants Congress the power to regulate interstate commerce but also implies a negative command that restricts states from enacting regulations that unduly burden or discriminate against interstate commerce, even in the absence of federal legislation on the subject.\n\nIn the case of National Pork Producers Council v. Ross, the petitioners argued that California's Proposition 12, which regulates pork production, unconstitutionally interferes with interstate commerce under the dormant Commerce Clause. They claimed that the law imposed a substantial burden on interstate commerce by affecting pork producers outside California. However, the courts dismissed the complaint, and the Supreme Court affirmed this decision, indicating that the petitioners' claim did not fall within the core concerns of the dormant Commerce Clause.",
+        "grade": "8",
+        "context_length": 14087,
+        "search_queries": [
+            "What is the dormant commerce clause and how is it relevant to National Pork Producers Council v. Ross?"
+        ]
+    },
+    {
+        "query": "How does the Court's analysis of the 'meaningful judicial review' factor in Axon Enterprise, Inc. v. Federal Trade Commission differ from its analysis of that factor in Free Enterprise Fund v. Public Company Accounting Oversight Board?",
+        "gt_answer": "In Free Enterprise Fund, the Court found no meaningful judicial review because some Board actions never go to the SEC, so there may never be judicial recourse. In Axon, the Court acknowledges that eventual judicial review is available, but finds it would come too late to remedy the 'here-and-now injury' of being subjected to allegedly unconstitutional proceedings.",
+        "rubric": "A full credit answer should explain: 1) The key difference in Free Enterprise Fund was the separation between Board and SEC actions, 2) In Axon, eventual review is available but comes too late, 3) The focus in Axon is on remedying the immediate injury of undergoing allegedly unconstitutional proceedings. Partial credit for identifying some but not all of these key points.",
+        "model_answer": "In Axon Enterprise, Inc. v. FTC, the Court determined that the claims could not receive meaningful judicial review through the FTC Act or Exchange Act because they were collateral to any decisions the Commissions could make and fell outside the Commissions' expertise. Therefore, district court review was allowed. In contrast, in Free Enterprise Fund v. Public Company Accounting Oversight Board, the Court found that the Exchange Act provided no meaningful avenue of relief because not all Board actions culminated in Commission action, which was the only action reviewable in a court of appeals. Thus, the Court allowed district court jurisdiction in Free Enterprise Fund due to the lack of meaningful judicial review within the statutory scheme.",
+        "grade": "5",
+        "context_length": 13983,
+        "search_queries": [
+            "How does the Court's analysis of the 'meaningful judicial review' factor in Axon Enterprise, Inc. v. Federal Trade Commission differ from its analysis of that factor in Free Enterprise Fund v. Public Company Accounting Oversight Board?"
+        ]
+    },
+    {
+        "query": "According to Justice Gorsuch's concurring opinion in Axon Enterprise, Inc. v. Federal Trade Commission, what are the main problems with using the Thunder Basin factors to determine district court jurisdiction, rather than relying solely on the text of 28 U.S.C. \u00a7 1331?",
+        "gt_answer": "Justice Gorsuch argues that the Thunder Basin approach: 1) Defies the rule that Congress, not courts, defines federal jurisdiction, 2) Creates an incoherent and confusing multi-factor test, 3) Imposes serious costs on litigants and lower courts by making jurisdiction unclear, 4) Deters people from seeking judicial review they are entitled to, and 5) Allows agencies to leverage the uncertainty to extract unfair settlements.",
+        "rubric": "A full credit answer should identify at least 4 of the 5 key problems Gorsuch outlines. Partial credit for identifying 2-3 problems. The answer should accurately reflect Gorsuch's criticisms as stated in his concurrence.",
+        "model_answer": "Justice Gorsuch's concurring opinion highlights several problems with using the Thunder Basin factors to determine district court jurisdiction instead of relying solely on the text of 28 U.S.C. \u00a7 1331:\n\n1. **Complexity and Confusion**: The Thunder Basin factors create a complex and confusing jurisdictional test that complicates cases, leading to increased litigation over jurisdiction rather than the merits of the claims.\n\n2. **Inconsistency**: The factors lead to inconsistent outcomes, as different courts may reach different conclusions on the same facts due to the lack of clear guidance.\n\n3. **Judicial Overreach**: The approach allows courts to deny individuals their right to a judicial forum based on suppositions about congressional intentions, which oversteps the authority reserved for Congress to regulate jurisdiction.\n\n4. **Needless Costs**: The Thunder Basin approach imposes serious and needless costs on litigants and lower courts, as it requires balancing factors in every case with potential parallel agency proceedings.\n\n5. **Lack of Clarity**: Jurisdictional rules should be clear and easy to apply, but the Thunder Basin factors do not provide straightforward rules, leading to unnecessary litigation and resource expenditure.\n\n6. **Judicial Review**: The factors can foreclose meaningful judicial review, which is contrary to the principle that statutes defining court jurisdiction should be clear and controlling.\n\nOverall, Justice Gorsuch argues for a return to interpreting the laws based on the clear statutory language of 28 U.S.C. \u00a7 1331, without the added complexity of the Thunder Basin factors.",
+        "grade": "10",
+        "context_length": 14448,
+        "search_queries": [
+            "According to Justice Gorsuch's concurring opinion in Axon Enterprise, Inc. v. Federal Trade Commission, what are the main problems with using the Thunder Basin factors to determine district court jurisdiction, rather than relying solely on the text of 28 U.S.C. \u00a7 1331?"
+        ]
+    },
+    {
+        "query": "How did the Supreme Court in Groff v. DeJoy address the relationship between its decision and the EEOC's longstanding guidance on religious accommodations under Title VII?",
+        "gt_answer": "The Court acknowledged that much of the EEOC's guidance in this area is sensible and will likely be unaffected by the Court's clarifying decision. However, the Court declined to ratify the EEOC's entire body of interpretation, noting it had not benefited from the clarification provided in this decision. The Court stated it would not be prudent to fully endorse EEOC guidance that was based on the mistaken 'de minimis' interpretation of Hardison.",
+        "rubric": "A complete answer should note that the Court recognized much of the EEOC's guidance as sensible and likely to remain valid. However, it should also explain that the Court declined to fully endorse or ratify all EEOC interpretations, given that they were based on the mistaken 'de minimis' standard. The answer should convey that the Court took a middle ground - not rejecting EEOC guidance wholesale, but also not fully embracing it given the clarification provided in this decision.",
+        "model_answer": "The Supreme Court in Groff v. DeJoy did not fully endorse the EEOC's longstanding guidance on religious accommodations under Title VII. The Court acknowledged that the EEOC had accepted Hardison as prescribing a \"more than a de minimis cost\" test, but it did not adopt this standard as the definitive interpretation. Instead, the Court clarified that Title VII requires an assessment of a possible accommodation's effect on \"the conduct of the employer's business,\" and impacts on co-workers are relevant only if they affect the business conduct. The Court left the context-specific application of this clarified standard to the lower courts.",
+        "grade": "8",
+        "context_length": 14165,
+        "search_queries": [
+            "How did the Supreme Court in Groff v. DeJoy address the relationship between its decision and the EEOC's longstanding guidance on religious accommodations under Title VII?"
+        ]
+    },
+    {
+        "query": "What did the Supreme Court in Groff v. DeJoy say about how Title VII's requirement that an employer 'reasonably accommodate' an employee's religious practice should be interpreted?",
+        "gt_answer": "The Court clarified that Title VII requires an employer to reasonably accommodate an employee's religious practice, not merely assess the reasonableness of a particular possible accommodation. The Court stated that faced with an accommodation request, it would not be enough for an employer to only consider one option (like forcing other employees to work overtime) and conclude it would be an undue hardship. Consideration of other options, such as voluntary shift swapping, would also be necessary.",
+        "rubric": "A complete answer should explain that the Court interpreted Title VII as requiring employers to actually reasonably accommodate religious practices, not just assess the reasonableness of accommodations. It should note that employers must consider multiple accommodation options, not just reject one as an undue hardship. The answer should provide the example given by the Court - that an employer cannot just conclude forcing overtime would be a hardship, but must also consider options like voluntary shift swaps.",
+        "model_answer": "The Supreme Court in Groff v. DeJoy clarified that Title VII requires an employer to reasonably accommodate an employee's practice of religion, not merely to assess the reasonableness of a particular possible accommodation. This means that if an accommodation request is made, such as in Groff's case, it is not sufficient for an employer to simply conclude that forcing other employees to work overtime would be an undue hardship. The employer must also consider other options, like voluntary shift swapping.",
+        "grade": "10",
+        "context_length": 14403,
+        "search_queries": [
+            "What did the Supreme Court in Groff v. DeJoy say about how Title VII's requirement that an employer 'reasonably accommodate' an employee's religious practice should be interpreted?"
+        ]
+    },
+    {
+        "query": "What guidance did the Supreme Court provide in Twitter, Inc. v. Taamneh regarding how courts should analyze aiding and abetting claims under \u00a7 2333(d)(2) in future cases?",
+        "gt_answer": "The Court provided the following guidance: 1) Courts should focus on whether defendants consciously and culpably participated in the specific tort at issue; 2) The more attenuated the nexus between the defendant's acts and the tort, the more courts should demand showing of culpable participation through intentional aid that substantially furthered the tort; 3) If a plaintiff's theory would hold a defendant liable for all torts of an enterprise, a showing of pervasive and systemic aid is required; 4) Courts should not rigidly apply Halberstam's elements and factors, but understand them in light of common law principles; 5) The analysis should consider the relationship between the defendant and the tort, the defendant's state of mind, and the nature and extent of assistance provided; 6) Mere provision of widely available services or passive failure to prevent misuse is generally insufficient without more to establish liability.",
+        "rubric": "A complete answer should identify multiple aspects of the Court's guidance, including the focus on conscious and culpable participation, the sliding scale between nexus and culpability, requirements for enterprise-wide liability, flexible application of Halberstam, key factors to consider, and insufficiency of mere service provision. The key is demonstrating understanding of the principles the Court emphasized for analyzing future cases.",
+        "model_answer": "The Supreme Court in Twitter, Inc. v. Taamneh provided guidance that aiding and abetting claims under \u00a7 2333(d)(2) should focus on whether the defendant knowingly provided substantial assistance to the primary wrongdoer. The analysis should consider the defendant's conscious and culpable conduct, requiring a balance between the nature and amount of assistance and the defendant's state of mind. The Court emphasized that aiding and abetting liability does not require a strict nexus between the assistance and the wrongful act, and that defendants can be liable for other torts that are a foreseeable risk of the intended tort. The Court also noted that the analysis should not rigidly adhere to the facts or exact phraseology of prior cases like Halberstam, but rather capture the essence of aiding and abetting: significant and culpable participation in another's wrongdoing.",
+        "grade": "5",
+        "context_length": 13739,
+        "search_queries": [
+            "What guidance did the Supreme Court provide in Twitter, Inc. v. Taamneh regarding how courts should analyze aiding and abetting claims under \u00a7 2333(d)(2) in future cases?"
+        ]
+    },
+    {
+        "query": "According to the Supreme Court's opinion in Twitter, Inc. v. Taamneh, what are the key elements required to establish aiding and abetting liability under 18 U.S.C. \u00a7 2333(d)(2)? How did the Court interpret the phrase \"aids and abets, by knowingly providing substantial assistance\"?",
+        "gt_answer": "The Court interpreted \u00a7 2333(d)(2) as requiring that the defendant consciously and culpably participated in the tortious act in a way that helped make it succeed. Specifically, the Court pointed to the elements and factors articulated in Halberstam v. Welch as providing the framework, but said these should be understood in light of common law principles and applied flexibly. The key elements are: 1) There must be a wrongful act causing injury performed by the person the defendant aided; 2) The defendant must have been generally aware of their role in an overall illegal or tortious activity; 3) The defendant must have knowingly and substantially assisted the principal violation. The Court emphasized that the assistance must be to the specific act of international terrorism that injured the plaintiffs, though a strict nexus is not always required.",
+        "rubric": "A complete answer should mention the Halberstam framework, the three key elements, the need for conscious and culpable participation, and that assistance must be to the specific terrorist act (though not necessarily with a strict nexus). It should also note that the Court said the elements should be applied flexibly in light of common law principles.",
+        "model_answer": "The Supreme Court's opinion in Twitter, Inc. v. Taamneh outlines the key elements required to establish aiding and abetting liability under 18 U.S.C. \u00a7 2333(d)(2) as follows:\n\n1. **Wrongful Act**: The party whom the defendant aids must perform a wrongful act that causes an injury.\n2. **General Awareness**: The defendant must be generally aware of their role as part of an overall illegal or tortious activity at the time they provide the assistance.\n3. **Knowing and Substantial Assistance**: The defendant must knowingly and substantially assist the principal violation.\n\nThe Court interpreted the phrase \"aids and abets, by knowingly providing substantial assistance\" to mean conscious, voluntary, and culpable participation in another's wrongdoing. The assistance must be substantial, and the defendant's state of mind and the nature and amount of assistance are considered relative to one another. The Court emphasized that aiding and abetting is a rule of secondary liability for specific wrongful acts, and liability is imposed when someone consciously and culpably participates in a tortious act to help make it succeed.",
+        "grade": "10",
+        "context_length": 14166,
+        "search_queries": [
+            "According to the Supreme Court's opinion in Twitter, Inc. v. Taamneh, what are the key elements required to establish aiding and abetting liability under 18 U.S.C. \u00a7 2333(d)(2)? How did the Court interpret the phrase \"aids and abets, by knowingly providing substantial assistance\"?"
+        ]
+    },
+    {
+        "query": "How does the dissent in United States v. Hansen criticize the majority's use of statutory history to support its interpretation?",
+        "gt_answer": "The dissent argues that the statutory history actually shows Congress repeatedly expanded the scope of the law, including by removing terms like 'solicit' and 'assist' that the majority reads back into the statute. The dissent contends the majority's 'cleanup project' theory ignores the presumption that changes in statutory language convey changes in meaning.",
+        "rubric": "A complete answer should explain how the dissent views the statutory history as showing expansion rather than narrowing, mention the removal of specific terms, and address the dissent's criticism of the majority's 'cleanup project' rationale.",
+        "model_answer": "The dissent in United States v. Hansen criticizes the majority's use of statutory history by arguing that the majority departs from ordinary principles of statutory interpretation. It contends that the majority rewrites the provision's text to include elements that Congress once adopted but later removed, which is inconsistent with Congress's intent. The dissent emphasizes that Congress's failure to use specific language should give pause before concluding that the statute can be read as if it included those terms. Additionally, the dissent argues that the majority fails to provide evidence that Congress consulted previous decisions when drafting amendments, undermining the connection the majority tries to establish.",
+        "grade": "8",
+        "context_length": 14253,
+        "search_queries": [
+            "How does the dissent in United States v. Hansen criticize the majority's use of statutory history to support its interpretation?"
+        ]
+    },
+    {
+        "query": "In his concurring opinion in Allen v. Milligan, how does Justice Kavanaugh address Alabama's argument for using race-blind computer simulations in Section 2 cases?",
+        "gt_answer": "Justice Kavanaugh rejects Alabama's argument that courts should rely solely on race-blind computer simulations to assess Section 2 violations. He points out that the text of Section 2 establishes an effects test, not just an intent test. Kavanaugh notes that Section 2 and Gingles require considering race in some circumstances to prevent cracking or packing of minority populations, whether intentional or not.",
+        "rubric": "A complete answer should include: 1) Kavanaugh's rejection of sole reliance on race-blind simulations, 2) The distinction between effects test and intent test in Section 2, 3) The necessity of considering race in some circumstances under Section 2 and Gingles.",
+        "model_answer": "The provided context does not contain specific details on how Justice Kavanaugh addresses Alabama's argument for using race-blind computer simulations in Section 2 cases. More information is needed to answer this question.",
+        "grade": "0",
+        "context_length": 14160,
+        "search_queries": [
+            "In his concurring opinion in Allen v. Milligan, how does Justice Kavanaugh address Alabama's argument for using race-blind computer simulations in Section 2 cases?"
+        ]
+    },
+    {
+        "query": "How does Justice Kavanaugh's concurring opinion in Allen v. Milligan align with and differ from the majority opinion?",
+        "gt_answer": "Justice Kavanaugh agrees with the Court that Alabama's redistricting plan violates Section 2 of the Voting Rights Act as interpreted in Thornburg v. Gingles. However, he writes separately to address some of Alabama's key arguments and emphasize certain points about the Section 2 analysis under Gingles, such as the high bar for overruling statutory precedent, the rejection of mandatory proportionality, and the necessity of considering race in some circumstances.",
+        "rubric": "A complete answer should include: 1) Kavanaugh's agreement with the majority on the violation of Section 2, 2) His decision to write separately to address specific arguments, 3) At least two examples of points he emphasizes (e.g. statutory stare decisis, rejection of proportionality, consideration of race).",
+        "model_answer": "Justice Kavanaugh's concurring opinion in Allen v. Milligan aligns with the majority opinion in that he agrees Alabama's redistricting plan violates \u00a7 2 of the Voting Rights Act as interpreted in Thornburg v. Gingles. However, he writes separately to emphasize certain points, particularly acknowledging the problematic constitutional footing of \u00a7 2 and expressing concern that race-based redistricting cannot extend indefinitely into the future. He concurs with the majority opinion except for Part III\u2013B\u20131.",
+        "grade": "8",
+        "context_length": 13906,
+        "search_queries": [
+            "How does Justice Kavanaugh's concurring opinion in Allen v. Milligan align with and differ from the majority opinion?"
+        ]
+    }
+]
