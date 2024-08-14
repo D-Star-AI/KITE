@@ -3,7 +3,7 @@ import sys
 import json
 
 # add ../../ to sys.path
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../dsRAG')))
 
 # import the necessary modules
 from dsrag.knowledge_base import KnowledgeBase
@@ -28,16 +28,16 @@ def get_response(question: str, context: str):
 
 #test_set_name = "ai_papers"
 #test_set_name = "bvp_cloud"
-#test_set_name = "sourcegraph"
-test_set_name = "supreme_court_opinions"
+test_set_name = "sourcegraph"
+#test_set_name = "supreme_court_opinions"
 
-#config_name = "top_k"
+config_name = "top_k"
 #config_name = "auto_query_top_k"
 #config_name = "rse"
 #config_name = "cch_top_k"
 #config_name = "cch_rse"
 #config_name = "auto_query_cch_top_k"
-config_name = "auto_query_cch_rse"
+#config_name = "auto_query_cch_rse"
 
 if "cch" in config_name:
     if test_set_name in ["ai_papers", "bvp_cloud"]:
@@ -62,10 +62,11 @@ else:
 kb = KnowledgeBase(kb_id)
 
 questions_file_path = f"/Users/zach/Code/KITE/queries/{test_set_name}.json"
-#questions_file_path = "/Users/zach/Code/questions.json"
 
 with open(questions_file_path, "r") as f:
     eval_items = json.load(f)
+
+unique_doc_ids = set()
 
 for eval_item in eval_items:
     question = eval_item["query"]
@@ -83,6 +84,10 @@ for eval_item in eval_items:
     if use_rse:
         relevant_segments = kb.query(search_queries)
         context = "\n\n".join([segment["text"] for segment in relevant_segments])
+        
+        doc_ids = [segment["doc_id"] for segment in relevant_segments]
+        print (doc_ids)
+        unique_doc_ids.update(doc_ids)
     else:
         all_search_results = []
         for query in search_queries:
@@ -95,17 +100,29 @@ for eval_item in eval_items:
         seen = set()
         deduped_search_results = [x for x in search_results if not (x in seen or seen.add(x))]
         context = "\n\n".join(deduped_search_results)
+
+        doc_ids = [result['metadata']['doc_id'] for result in all_search_results]
+        unique_doc_ids.update(doc_ids)
     
     eval_item["context_length"] = len(context)
 
-    response = get_response(question, context)
-    eval_item["response"] = response
+    #response = get_response(question, context)
+    #eval_item["response"] = response
 
-    print()
-    print(response)
+    #print()
+    #print(response)
 
+print(f"Unique doc ids: {unique_doc_ids}")
+
+# save the unique doc ids to a file
+file_path = f"sourcegraph_unique_doc_ids_{config_name}.txt"
+with open(file_path, "w") as f:
+    for doc_id in unique_doc_ids:
+        f.write(f"{doc_id}\n")
+
+"""
 output_file_path = f"/Users/zach/Code/KITE/responses/{config_name}/{test_set_name}.json"
-#output_file_path = "/Users/zach/Code/questions_with_responses.json"
 
 with open(output_file_path, "w") as f:
     json.dump(eval_items, f, indent=4)
+"""
